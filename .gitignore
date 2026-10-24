@@ -1,0 +1,35 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+lib/
+
+# Generated results and charts
+results/*.csv
+results/*.json
+results/charts/*.png
+results/raw/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python virtual env & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# Core dumps and logs
+core
+*.log
+vgcore.*
+perf.data*

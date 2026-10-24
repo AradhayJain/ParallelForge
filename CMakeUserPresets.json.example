@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 20,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "user-custom",
+      "displayName": "User Custom Build",
+      "inherits": "release",
+      "cacheVariables": {
+        "PARALLELFORGE_ENABLE_AVX2": "ON",
+        "CMAKE_VERBOSE_MAKEFILE": "OFF"
+      }
+    }
+  ]
+}

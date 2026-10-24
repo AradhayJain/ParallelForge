@@ -1,0 +1,15 @@
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+lib/
+results/
+.git/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.venv/
+venv/
+perf.data*
